@@ -1,10 +1,8 @@
+
 ````markdown
-<!-- Banner with Typing Animation -->
+<!-- Banner -->
 <div align="center">
-  <h1>🌌 Welcome to</h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=7D5FFF&center=true&vCenter=true&width=435&lines=MalakSphere;Frontend+Developer;Web+Design+Enthusiast" alt="Typing SVG" />
-  <br/>
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="120" alt="Coding animation"/>
+  <h1>🌌 Welcome to <span style="color:#7d5fff;">MalakSphere</span> 👋</h1>
   <p>
     <img src="https://img.shields.io/badge/Frontend-Developer-blueviolet?style=for-the-badge" />
     <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" />
@@ -15,6 +13,7 @@
 
 ---
 
+<!-- About Me -->
 ### 👩‍💻 About Me
 - 💻 Aspiring **Frontend Developer**  
 - 🌱 Currently learning **HTML, CSS, JavaScript**  
@@ -23,6 +22,7 @@
 
 ---
 
+<!-- Tech Stack -->
 ### 🛠️ Tech Stack
 ```html
 Frontend: HTML5, CSS3, JavaScript (Vanilla JS)  
@@ -32,6 +32,8 @@ Future: React.js (coming soon 🚀)
 
 ---
 
+<!-- Projects -->
+
 ### 📂 Featured Projects
 
 * 🌐 [malaksphere-layouts](https://github.com/MalakSphere/malaksphere-layouts) – Responsive layouts & CSS practice
@@ -40,20 +42,7 @@ Future: React.js (coming soon 🚀)
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MalakSphere&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalakSphere&layout=compact&theme=tokyonight" alt="Top Languages" height="160"/>
-</div>
-
----
-
-<div align="center">
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="250" alt="Fun coding gif"/>
-</div>
-
----
+<!-- Contact -->
 
 ### 📫 Connect with Me
 
