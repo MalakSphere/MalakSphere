@@ -51,12 +51,6 @@ Future: React.js (coming soon 🚀)
 </p>
 
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MalakSphere&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalakSphere&layout=compact&theme=tokyonight" alt="Top Languages" height="160"/>
-</div>
 
 ---
 
