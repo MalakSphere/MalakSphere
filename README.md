@@ -1,62 +1,51 @@
 ```markdown
-<!-- Banner with Typing Animation -->
 <div align="center">
-  <h1>🌌 Welcome to MalakSphere</h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Frontend+Developer;Web+Design+Explorer;Building+My+Coding+Universe" alt="Typing SVG" />
-  <br/><br/>
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="220" alt="Coding animation"/>
+
+# 🌌 MalakSphere  
+
+**Frontend Developer in Progress 🚀**  
+*Exploring the universe of code, one line at a time.*  
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250" alt="Coding animation"/>
+
+---
+
 </div>
 
----
-
 ## 👩‍💻 About Me
-✨ I’m **Malak**, an aspiring **Frontend Developer**  
-🌱 Currently learning **HTML, CSS, JavaScript**  
-💡 Passionate about **responsive design** and **creative layouts**  
-🚀 My mission: expand the **MalakSphere** of code  
+- 🎓 Learning **Frontend Development** (HTML, CSS, JavaScript)  
+- 🎨 Passionate about **creative layouts & responsive design**  
+- ✨ Dream: build my own coding universe – **MalakSphere**
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Skills
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-FF6F61?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-6C63FF?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7E018?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Responsive%20Design-4834D4?style=for-the-badge&logo=figma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-FF5733?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-264de4?style=flat-square&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
 
 ---
 
-## 📂 Featured Projects
-- 🌐 [**malaksphere-layouts**](https://github.com/MalakSphere/malaksphere-layouts) – Modern & responsive layouts  
-- 🎨 [**personal-portfolio**](https://github.com/MalakSphere/personal-portfolio) – My personal website project  
-- ⚡ [**js-mini-projects**](https://github.com/MalakSphere/js-mini-projects) – JavaScript experiments  
+## 📂 Projects
+- 🌐 [malaksphere-layouts](https://github.com/MalakSphere/malaksphere-layouts) – Responsive layouts & CSS practice  
+- 🎨 [personal-portfolio](https://github.com/MalakSphere/personal-portfolio) – Portfolio website project  
+- ⚡ [js-mini-projects](https://github.com/MalakSphere/js-mini-projects) – JavaScript mini projects  
 
 ---
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MalakSphere&show_icons=true&theme=radical&title_color=6C63FF&icon_color=4834D4&text_color=ffffff&bg_color=0d1117" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalakSphere&layout=compact&title_color=6C63FF&text_color=ffffff&bg_color=0d1117" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=MalakSphere&show_icons=true&theme=nightowl" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalakSphere&layout=compact&theme=nightowl" height="150"/>
 </div>
 
 ---
 
-## 🌌 Connect with Me
-<p align="center">
-  <a href="https://github.com/MalakSphere">
-    <img src="https://img.shields.io/badge/GitHub-MalakSphere-0d1117?style=for-the-badge&logo=github&logoColor=6C63FF"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-Coming_Soon-0d1117?style=for-the-badge&logo=linkedin&logoColor=6C63FF"/>
-  </a>
-</p>
-
----
-
 <div align="center">
-  <img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" width="200" alt="Galaxy code gif"/>
-  <br/>
-  ⭐ *“Coding is how I expand my universe.”*
+  
+⭐ “Every project I build adds a star to my MalakSphere.” ⭐  
+
 </div>
 ```
