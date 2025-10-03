@@ -1,4 +1,3 @@
-@@ -1,51 +1,70 @@
 ```markdown
 ````markdown
 <!-- Banner with Typing Animation -->
@@ -51,18 +50,8 @@ Future: React.js (coming soon 🚀)
   <img src="https://img.shields.io/badge/CSS3-264de4?style=flat-square&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
-### 📂 Featured Projects
 
-* 🌐 [malaksphere-layouts](https://github.com/MalakSphere/malaksphere-layouts) – Responsive layouts & CSS practice
-* 🎨 [personal-portfolio](https://github.com/MalakSphere/personal-portfolio) – My personal website
-* ⚡ [js-mini-projects](https://github.com/MalakSphere/js-mini-projects) – JavaScript practice projects
 
----
-
-## 📂 Projects
-- 🌐 [malaksphere-layouts](https://github.com/MalakSphere/malaksphere-layouts) – Responsive layouts & CSS practice  
-- 🎨 [personal-portfolio](https://github.com/MalakSphere/personal-portfolio) – Portfolio website project  
-- ⚡ [js-mini-projects](https://github.com/MalakSphere/js-mini-projects) – JavaScript mini projects  
 ### 📊 GitHub Stats
 
 <div align="center">
