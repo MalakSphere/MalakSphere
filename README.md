@@ -1,4 +1,3 @@
-@@ -1,51 +1,70 @@
 ```markdown
 ````markdown
 <!-- Banner with Typing Animation -->
@@ -59,27 +58,7 @@ Future: React.js (coming soon 🚀)
 
 ---
 
-## 📂 Projects
-- 🌐 [malaksphere-layouts](https://github.com/MalakSphere/malaksphere-layouts) – Responsive layouts & CSS practice  
-- 🎨 [personal-portfolio](https://github.com/MalakSphere/personal-portfolio) – Portfolio website project  
-- ⚡ [js-mini-projects](https://github.com/MalakSphere/js-mini-projects) – JavaScript mini projects  
-### 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MalakSphere&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalakSphere&layout=compact&theme=tokyonight" alt="Top Languages" height="160"/>
-</div>
-
----
-
-## 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MalakSphere&show_icons=true&theme=nightowl" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MalakSphere&layout=compact&theme=nightowl" height="150"/>
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="250" alt="Fun coding gif"/>
-</div>
-
----
 
 <div align="center">
   
