@@ -1,4 +1,4 @@
-```markdown
+
 ````markdown
 <!-- Banner with Typing Animation -->
 <div align="center">
