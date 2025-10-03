@@ -1,15 +1,15 @@
 
 ````markdown
-<!-- Banner with Typing Animation -->
+<!-- Simple Static Banner -->
 <div align="center">
-  <h1>🌌 Welcome to</h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=7D5FFF&center=true&vCenter=true&width=435&lines=MalakSphere;Frontend+Developer;Web+Design+Enthusiast" alt="Typing SVG" />
-  <br/>
+  <h1>🌌 Welcome to MalakSphere</h1>
+  <p>Frontend Developer | Web Design Enthusiast</p>
+
   <p>
-    <img src="https://img.shields.io/badge/Frontend-Developer-blueviolet?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" />
-    <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3" />
-    <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" />
+    <img src="https://img.shields.io/badge/Frontend-Developer-blueviolet" />
+    <img src="https://img.shields.io/badge/HTML-5-orange" />
+    <img src="https://img.shields.io/badge/CSS-3-blue" />
+    <img src="https://img.shields.io/badge/JavaScript-yellow" />
   </p>
 </div>
 
