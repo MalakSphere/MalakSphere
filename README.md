@@ -5,7 +5,6 @@
   <h1>🌌 Welcome to</h1>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=7D5FFF&center=true&vCenter=true&width=435&lines=MalakSphere;Frontend+Developer;Web+Design+Enthusiast" alt="Typing SVG" />
   <br/>
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="120" alt="Coding animation"/>
   <p>
     <img src="https://img.shields.io/badge/Frontend-Developer-blueviolet?style=for-the-badge" />
     <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" />
