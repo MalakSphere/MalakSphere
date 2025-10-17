@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+#wecandoit{
+width: 100%;
+display:flex;
+order: -1;
+justify-content: space-around;
+}
+
+main{
+    position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url(img/home_bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  
+
+}
+.responsive_home{
+     display: flex;
+     justify-content: space-around; 
+      width: 100%;
+      background-color: #161615;     
+}
+main::after{
+   content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.466);
+  z-index: 0;
+
+
+}
+main div img {
+
+width: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    max-width: 45%;
+}
+nav a{ color: rgba(255, 255, 255, 0.911);
+    padding-left: 20px;
+}
+
+nav a:link{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-bottom:5px ;
+
+}
+nav a:hover{
+  border-bottom: 2px solid #e4b95b;
+
+}
+
+ 
+
+
+
+
+main > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* 👇 نخلي الروابط فوق الكل حتى ما تتأثر بالشفافية */
+main a {
+  position: relative;
+  z-index: 2; /* أعلى من الطبقة الشفافة */
+  color: #fff; /* مثلاً أبيض أو اللون اللي بدك إياه */
+  text-decoration: none;
+}
+.welcome{
+position: absolute;
+top: 30%;
+
+}
+.welcome h1{
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px;}
+.welcome p{
+    text-align: center;
+    color: white;
+}
+.welcome{display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-content: center;
+  align-items: center; /* 🟢 تمركز المحتوى أفقيًا */
+
+    }
+button{
+background-color: transparent; /* 👈 خلفية شفافة */
+  color: white; /* 👈 لون النص */
+  border: 2px solid white; /* 👈 حواف بيضاء */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px; /* 👈 حواف ناعمة */
+  cursor: pointer;
+  transition: all 0.3s ease; /* 👈 تأثير ناعم عند التفاعل */
+  width: 200px;
+}
+button:hover{
+
+    background-color: rgb(226, 167, 96)
+}
+span{
+    color: rgb(226, 167, 96);
+}
+
+  /* history siction*/
+  .food_history{
+  background: #f4f4f4;
+     display : flex;
+     flex-flow: column;
+     padding-top: 20px;
+  }
+  .history_body_container{
+
+    display : flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+.img_history{
+    background-image: url(img/about_img.png);
+    width: 40%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+
+.history_heading{
+ display: flex;
+  align-self: center;
+  
+  flex-flow: column;
+  
+}
+
+.history_body{
+  width:30% ;
+ 
+
+}
+
+
+.history_body p{
+    word-spacing:5px;
+    line-height: 20px;
+}
+.history_heading h1{
+     color: #383848;
+    margin: 0;
+ font-size: 40px;
+ word-spacing: 5px;
+}
+.history_heading p{
+
+    text-align: center;
+}
+.learn_more{
+    background-color:#383848;
+}
+  /* offers siction*/
+
+.food_offers{
+     display : flex;
+     flex-flow: column;
+     background-image: url(img/offer-background.jpg);
+}
+.offers_container{
+    display: flex;
+   flex-wrap: wrap;
+}
+.offers_heading{
+
+    align-self: center;
+}
+.offers_heading h1{
+    font-size: 40px;
+    color: #e4b95b;
+}
+
+.offers_container{
+    display: flex;
+      justify-content: space-around;
+      width: 75%;
+    align-items: center;
+     text-align: center;
+     align-self: center;
+     flex-wrap: wrap;
+}
+
+.offers_heading p{
+    text-align: center;
+    color: #fff;
+}
+.offer1{
+
+width: 25%;
+
+
+}
+
+.offer1 img{
+    width: 150px;
+}
+.offer1 p span{color: #e4b95b;}
+.offer1 p,.offer1 h2{
+
+    color: #f4f4f4 ;
+}
+
+/*menu section*/
+.menu_heder{
+    
+       align-self: center;
+ 
+}
+
+.menu_container{
+    background: #f4f4f4;
+     display : flex;
+     flex-flow: column wrap;
+     
+ }
+.menu{
+display: flex;
+flex-wrap: wrap;
+ width: 35%;   
+}
+.div_menu{
+     display : flex;
+     flex-flow: row wrap;
+      justify-content: center;
+
+}
+.menu img{
+
+  width: 80px;  
+  height: 80px;
+  margin: 10px;
+
+}
+
+.explorefullmenu{
+display: inline-block;
+background-color:#e4b95b; /* 👈 خلفية شفافة */
+  color: white; /* 👈 لون النص */
+  border: 2px solid white; /* 👈 حواف بيضاء */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px; /* 👈 حواف ناعمة */
+  cursor: pointer;
+  transition: all 0.3s ease; /* 👈 تأثير ناعم عند التفاعل */
+width: 150px;
+text-decoration: none;
+text-align:center;
+margin: auto;}
+
+.explorefullmenu:hover{
+    background-color:#383848;
+}
+.daytime_conteaner{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.daytime_conteaner div{
+    width: 23%;
+    
+
+}
+
+
+
+
+
+.gallary_conteaner{
+  display: flex;
+  align-items: center;
+  flex-flow: wrap column;
+
+background-image: url(img/offer-background.jpg);
+}
+.gallary_conteaner h2{
+
+   
+
+}
+
+.gallary_conteaner div img{
+
+width: 250px;   
+height: 250px;
+padding: 20px;
+}
+.gallary_conteaner div {
+   margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  flex-flow: row wrap;
+
+
+}
+
+.gallary_conteaner h1{
+    font-size: 40px;
+    color: #f4f4f4;
+}
+
+/*contact */
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f4f4f4;
+    padding-bottom: 10px;
+}
+.form-conteaner{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 40%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.form-conteaner form input, textarea{
+    display: block;
+    height: 50px ;
+    margin: 20px;
+   width:90% ;
+           background-color:  #e3e2dd;
+           border: none;
+
+}
+.form-conteaner form button{
+    background-color: #e4b95b;
+        margin: 20px;
+
+}
+
+.form-conteaner form button:hover{
+
+background-color: #383848;
+
+
+}
+
+.calinfo{
+
+    margin-top: 50px;
+}
+
+.calinfo h3{
+   color:  #383848;
+   font-size: 30px;
+}
+
+.fa-solid fa-location-dot,fa-solid fa-phone,fa-brands fa-instagram{
+
+    color: #e4b95b;
+}
+
+.calinfo .address i {
+  color: #e4b95b;
+ }
+ .calinfo .follow a i{
+    color: #fff;
+    font-weight: 10px ;
+    border: solid #383848;
+    background-color: #383848;
+    border-radius: 50% ;
+    padding: 7px;
+    
+ }
+.calinfo .follow a i:hover{
+    background-color: #e4b95b;
+    border-color: #e4b95b;
+}
+
+#footer{
+    background-color: #383848;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#footer p{
+    color: #fff;
+}
+
+
+/* Responsiveness */
+/* Medium Screen + Tablet */
+@media (max-width: 1000px) {
+
+main{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+
+}
+
+main nav a{
+    padding-left: 5px;
+} 
+
+.welcome h1{
+    font-size: 30px;
+}
+.history_body_container{
+flex-flow: column;
+justify-content: center;
+width: 100%;
+
+}
+
+.history_body{
+ order: 2;
+width: 80%;
+margin: auto;
+
+
+}
+.img_history{
+    height: 300px;
+  width:80% ;
+  margin: auto;
+  background-size: 80% 300px;
+}
+
+
+
+.learn_more{
+
+   margin-left:  80px  ;
+   margin-bottom: 20px;
+}
+
+.offers_container{
+    flex-flow: column;
+}
+.offer1{
+    width: 70%;
+}
+
+.div_menu{
+    flex-flow: column wrap;
+    align-items: center;
+}
+.menu{
+    width: 100%;
+}
+.daytime_conteaner{
+    flex-flow:row wrap;
+}
+.daytime_conteaner div{
+
+width:45%;
+}
+}
+
+/* Mobile Devices */
+  @media (max-width: 600px) {
+.welcome h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+main nav a{
+    padding-left: 7px;
+font-size: 15px;
+}
+
+.div_menu{
+    flex-flow: column wrap;
+    align-items: center;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div_menu p ,.div_menu h3{
+    text-align: center;
+
+
+}
+
+.daytime_conteaner{
+    flex-flow:column wrap;
+}
+.daytime_conteaner div{
+width:80%;
+}
+
+.form-conteaner{
+width:40%;
+
+
+}
+
+.calinfo{
+
+    margin-top: 50px;
+}
+
+.calinfo h3{
+   font-size: 15px;
+}
+
+form input{
+    width: 70%;
+}
+
+
+#wecandoit{
+flex-flow: column;
+align-items: center;
+}
+
+.contact{
+    flex-flow: column;
+    align-items: center;
+}
+.form-conteaner{
+width:60%;
+
+
+}
+
+h1,h2,h3{
+
+    font-size: 15px;
+}
+  }
