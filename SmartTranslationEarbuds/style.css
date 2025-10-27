@@ -1,0 +1,310 @@
+/* -----------------------------
+   RESET + BASE STYLES
+----------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+/* -----------------------------
+   NAVIGATION
+----------------------------- */
+#nav-coteaner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DDF4E7;
+    padding: 15px;
+}
+
+#nav-coteaner nav a {
+    text-decoration: none;
+    color: #124170;
+    padding: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#nav-coteaner nav a:hover {
+border-bottom: solid #26667F;
+padding-bottom: 5px;
+}
+
+i {
+    color: #124170;
+    display: inline-block;
+}
+
+/* -----------------------------
+   HEADER
+----------------------------- */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #DDF4E7;
+    padding: 20px;
+}
+
+.img-conteaner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.product-image1,
+.product-image2 {
+    height: 300px;
+    width: 300px;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.product-image1 {
+    background-image: url(img/51a81x8o3qL._AC_SL1500_.jpg);
+}
+
+.product-image2 {
+    background-image: url(img/51z7F75X8zL._AC_SL1500_.jpg);
+}
+
+button {
+    background-color: #124170;
+    color: #DDF4E7;
+    width: 120px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #26667F;
+}
+
+h2 {
+    text-align: center;
+    color: #124170;
+    margin-top: 20px;
+}
+
+/* -----------------------------
+   FEATURE SECTION
+----------------------------- */
+.Feature-conteaner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #26667F;
+    padding: 40px 0;
+    gap: 20px;
+}
+
+.Feature {
+    background-color: #DDF4E7;
+    width: 25%;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Feature h3 {
+    color: #124170;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.Feature h3 i {
+    margin-right: 5px;
+}
+
+.Feature p {
+    color: rgb(104, 101, 101);
+    padding: 10px;
+    line-height: 1.6;
+}
+
+/* -----------------------------
+   PRICE SECTION
+----------------------------- */
+.price-conteaner {
+    background-color: #DDF4E7;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.price {
+    width: 50%;
+    max-width: 600px;
+    background-color: #26667F;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.price h3,
+.price p {
+    color: #DDF4E7;
+    text-align: center;
+}
+
+.price h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.price p,
+li {
+    font-size: 20px;
+}
+
+li {
+    color: #DDF4E7;
+    list-style-image: url(img/check_24dp_43825A_FILL0_wght400_GRAD0_opsz24.png);
+    margin-left: 30px;
+}
+
+/* -----------------------------
+   CONTACT FORM
+----------------------------- */
+.contact {
+    display: flex;
+    justify-content: center;
+    background-color: #26667F;
+    padding: 40px 0;
+}
+
+.form-conteaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    min-width: 300px;
+    background-color: #26667F;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-conteaner form input,
+.form-conteaner form textarea {
+    display: block;
+    width: 90%;
+    height: 50px;
+    background-color: #DDF4E7;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-conteaner form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-conteaner form button {
+    background-color: #DDF4E7;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-conteaner form button:hover {
+    background-color: #ddf4e7c0;
+}
+
+/* -----------------------------
+   RESPONSIVENESS
+----------------------------- */
+
+/* Small devices (mobile) */
+@media (max-width: 750px) {
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .img-conteaner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image1,
+    .product-image2 {
+        height: 250px;
+        width: 200px;
+    }
+
+    .Feature-conteaner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Feature {
+        width: 80%;
+    }
+
+    .price {
+        width: 90%;
+    }
+
+    .form-conteaner {
+        width: 90%;
+    }
+
+    .form-conteaner form input,
+    .form-conteaner form textarea {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+/* Medium devices (tablet) */
+@media (max-width: 1024px) {
+
+    a {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    h2,
+    h3 {
+        font-size: 32px;
+    }
+
+    .Feature {
+        width: 60%;
+    }
+
+    .price {
+        width: 70%;
+    }
+
+    .form-conteaner {
+        width: 70%;
+    }
+
+    p,
+    li {
+        font-size: 22px;
+    }
+}
